@@ -36,7 +36,8 @@ $radius: 4px;
 
 body, html {
   background-color: #060016;
-  overflow: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .navbar-header {
