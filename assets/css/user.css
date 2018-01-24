@@ -75,6 +75,7 @@ body, html {
   overflow: hidden;
   height: 35em;
   margin: none;
+  max-width: 100%;
 }
 
 @media (min-width:1000px) {
