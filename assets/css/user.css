@@ -72,6 +72,7 @@ body, html {
   background-color: #060016;
   background-size:cover;
   border:none;
+  overflow: hidden;
   /* overflow: visible;
   max-width: 100%;
   background-size:cover;
