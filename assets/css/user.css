@@ -17,7 +17,7 @@
 
 .navbar{
   margin-bottom:0;
-  background-color: #0B0029;
+  background-color: #090022;
   border-bottom-color: #3D169F;
   border-bottom-width: 2px;
   color:#3D169F;
@@ -37,6 +37,7 @@ $radius: 4px;
 body, html {
   background-color: #060016;
   max-width: 100%;
+  overflow: hidden;
   overflow-x: hidden;
 }
 
@@ -72,10 +73,11 @@ body, html {
 .hero{
   margin-top: 5em;
   background-color: #060016;
-  background-size:cover;
+/*  background-size:cover; */
   border:none;
   overflow: hidden;
   max-height: 40em;
+  max-width: 100%;
   /* overflow: visible;
   max-width: 100%;
   background-size:cover;
