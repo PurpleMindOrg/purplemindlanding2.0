@@ -27,9 +27,9 @@
   font-family: "BrandonGrotesque-Regular"; /*a name to be used later*/
   src: url("https://jackleonard.github.io/purplemindlanding2.0/assets/fonts/BrandonGrotesque-Regular.ttf"); /*URL to font*/
   src:
-  url("https://jackleonard.github.io/purplemindlanding2.0/assets/fonts/BrandonGrotesque-Regular.otf") format("opentype");
-  url("https://jackleonard.github.io/purplemindlanding2.0/assets/fonts/BrandonGrotesque-Regular.woff") format("woff");
-  url("https://jackleonard.github.io/purplemindlanding2.0/assets/fonts/BrandonGrotesque-Regular.svg") format("svg");
+  url("https://purplemind.io/purplemindlanding2.0/assets/fonts/BrandonGrotesque-Regular.otf") format("opentype");
+  url("https://purplemind.io/purplemindlanding2.0/assets/fonts/BrandonGrotesque-Regular.woff") format("woff");
+  url("https://purplemind.io/purplemindlanding2.0/assets/fonts/BrandonGrotesque-Regular.svg") format("svg");
 }
 
 
@@ -55,10 +55,14 @@ $radius: 4px;
 
 body, html {
   background-color: #060016;
-  max-width: 100%;
+
   overflow: hidden;
   overflow-x: hidden;
   position: fixed;
+
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-header {
@@ -98,6 +102,7 @@ body, html {
   overflow: hidden;
   max-height: 35em;
   max-width: 100%;
+
   /* overflow: visible;
   max-width: 100%;
   background-size:cover;
@@ -165,6 +170,16 @@ body, html {
 
 }
 
+.featuredUsersWorkAt {
+  background-color: #060016;
+}
+.featuredUsersWorkAt img {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 55%;
+}
 
 div.iphone-mockup{
   position:relative;
