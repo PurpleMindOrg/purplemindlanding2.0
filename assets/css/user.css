@@ -72,10 +72,13 @@ body, html {
   background-color: #060016;
   background-size:cover;
   border:none;
-  overflow: visible;
-  height: 35em;
-  margin: none;
+  /* overflow: visible;
   max-width: 100%;
+  background-size:cover;
+  margin: none;
+   height: 35em; */
+
+
 }
 
 @media (min-width:1000px) {
