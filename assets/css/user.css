@@ -184,12 +184,12 @@ section.features{
   margin-top:15px;
 }
 
-.signupform {
+.testimonials {
   background-color: #060016;
 
 }
 
-section.signupform{
+section.testimonials{
   margin-top: -3em;
   background-color: #060016;
   padding: 3em;
@@ -238,14 +238,14 @@ section.signupform{
   }
 }
 
-.signupform form {
+.testimonials form {
   margin: auto;
 
   max-width: 100%;
 @media screen and (max-width: 100%) {max-width: 90%;}
 }
-.signupform form input[type="email"],
-.signupform form .button {
+.testimonials form input[type="email"],
+.testimonials form .button {
   height: 48px;
   font-size: 1em;
   font-family: BrandonGrotesque-Regular;
@@ -254,7 +254,7 @@ section.signupform{
   border-color: #FFFFFF;
   background-color: #060016;;
 }
-.signupform form input[type="email"] {
+.testimonials form input[type="email"] {
   padding: 1.0625em;
   letter-spacing: 0.2em;
   width: 25em;
@@ -266,7 +266,7 @@ section.signupform{
 }
 
 
-.signupform form .button {
+.testimonials form .button {
   position: relative;
   top: -1px;
   left: -0px;
@@ -277,7 +277,7 @@ section.signupform{
 
 @media screen and (max-width: 410px) {width: 29%;}
 }
-.signupform form .button:hover {
+.testimonials form .button:hover {
   background-color: #4E1EC6;
   background-image: linear-gradient(-135deg, #E7347F 0%, #5B43EC 100%);
   box-shadow: 0px 15px 20px rgba(91, 67, 236, 0.4);
