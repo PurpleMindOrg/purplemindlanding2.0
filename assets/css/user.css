@@ -1,5 +1,16 @@
 
 
+
+
+
+
+@font-face {
+  font-family: 'BrandonGrotesque-Regular'; /*a name to be used later*/
+  src: url('assets/fonts/BrandonGrotesque-Regular.woff'); /*URL to font*/
+}
+
+
+
 .navbar{
   margin-bottom:0;
   background-color: #060016;
