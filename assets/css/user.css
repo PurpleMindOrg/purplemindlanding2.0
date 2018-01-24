@@ -5,8 +5,12 @@
 
 
 @font-face {
-  font-family: 'BrandonGrotesque-Regular'; /*a name to be used later*/
-  src: url('assets/fonts/BrandonGrotesque-Regular.woff'); /*URL to font*/
+  font-family: "BrandonGrotesque-Regular"; /*a name to be used later*/
+  src: url("assets/fonts/BrandonGrotesque-Regular.ttf"); /*URL to font*/
+  src:
+  url("assets/fonts/BrandonGrotesque-Regular.otf") format("opentype");
+  url("assets/fonts/BrandonGrotesque-Regular.woff") format("woff");
+  url("assets/fonts/BrandonGrotesque-Regular.svg") format("svg");
 }
 
 
