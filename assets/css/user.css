@@ -99,7 +99,7 @@ body, html {
 
 .hero .get-it h1 {
   /* Cutting edge A.I. me: */
-  font-family: BrandonGrotesque-Regular;
+  font-family: 'BrandonGrotesque-Regular';
   font-size: 3.0em;
   line-height: 1.4em;
   color: #FFFFFF;
@@ -108,7 +108,7 @@ body, html {
 .hero .get-it p {
 
   /* We’ve combined bulle: */
-  font-family: BrandonGrotesque-Regular;
+  font-family: 'BrandonGrotesque-Regular';
   font-size: 1.2em;
   color: #677897;
   letter-spacing: 0;
@@ -120,7 +120,7 @@ body, html {
   margin-left:0px;
   margin-bottom:10px;
   color: #FFFFFF;
-  font-family: BrandonGrotesque-Regular; !important;
+  font-family: 'BrandonGrotesque-Regular'; !important;
   background-color: #060016;
   border-color: #3D169F;
   border-top-width: 0.2em;
